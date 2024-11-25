@@ -2,6 +2,8 @@ def sum_range(start, end):
     x = 0
     for i in range(start, end+1):
         x += i
-        print(f"Сумма равна: {x}")
+    return (x)
 
-sum_range(1,3)
+y = sum_range(1,5)
+print(f"Сумма равна: {y}")
+
